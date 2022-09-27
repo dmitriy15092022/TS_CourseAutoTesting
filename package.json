@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --config .prettierrc **/*.ts --write",
-    "lint": "eslint HomeWork/*.{ts,json}",
-    "lint:fix": "eslint HomeWork/*.{ts,json} --quiet --fix",
+    "lint": "eslint HomeWork/*/**.{ts,json}",
+    "lint:fix": "eslint HomeWork/*/**.{ts,json} --quiet --fix",
     "prepare": "husky install"
   },
   "author": "",
