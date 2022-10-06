@@ -1,8 +1,13 @@
-let result2: number;
+let result2 = 0;
 
 function getSum(a4: number) {
-    result2 = a4.split("");
+    let digit;
+    while (a4) {
+        digit = a4 % 10;
+        result2 += digit;
+        a4 = (a4 - digit) / 10;
+    }
     return result2;
 }
 
-console.log(getSum(3521));
+console.log(getSum(5555557));
