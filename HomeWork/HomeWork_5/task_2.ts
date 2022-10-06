@@ -9,4 +9,4 @@ function getPereplata(credit: number) {
     return pereplata;
 }
 
-console.log(getPereplata(100000));
+console.log(getPereplata(110000));
