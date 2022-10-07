@@ -6,4 +6,4 @@ function getSum(min: number, max: number): any {
     }
 }
 
-console.log(getSum(1, 1));
+console.log(getSum(-1, 2));
